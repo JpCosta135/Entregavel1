@@ -1,32 +1,23 @@
-import java.util.Scanner;
+public class Fibonacci {
 
-    public class Fibonacci {
-        public static void main(String[] args) {
+    public void gerar(int n) {
+        int a = 0;
+        int b = 1;
+        int i = 2;
+        int c;
 
-            Scanner sc = new Scanner(System.in);
+        if (n == 1) {
+            System.out.print(a);
+        } else if (n >= 2) {
+            System.out.print(a + ", " + b);
 
-            System.out.print("Número de termos: ");
-            int n = sc.nextInt();
-
-            int a = 0;
-            int b = 1;
-            int i = 2;
-            int c;
-
-            if (n == 1) {
-                System.out.print(a);
-            } else if (n >= 2) {
-                System.out.print(a + ", " + b);
-
-                while (i < n) {
-                    c = a + b;
-                    System.out.print(", " + c);
-                    a = b;
-                    b = c;
-                    i++;
-                }
+            while (i < n) {
+                c = a + b;
+                System.out.print(", " + c);
+                a = b;
+                b = c;
+                i++;
             }
-
-            sc.close();
         }
     }
+}
