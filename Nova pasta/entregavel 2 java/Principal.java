@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
 
-        AlgFund2 a2 = new AlgFund2();
+        Contagem a2 = new Contagem();
         a2.contagem();
         AlgFund3 a3 = new AlgFund3();
         a3.soma();
