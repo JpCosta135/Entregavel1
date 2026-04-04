@@ -5,7 +5,7 @@ var i = 0;
 while (i < n) {
 i = i + 1;
 nota = prompt("Nota do aluno:");
-if (nota >= 0 && nota <= 10) {
+if (nota >= 7 && nota <= 10) {
 contagem = contagem + 1;
 }
 }
