@@ -1,3 +1,11 @@
+let numero = parseInt(prompt("Digite um número para verificar se é primo:"));
+
+if (ehPrimo(numero)) {
+  document.write(numero + " é um número primo.");
+} else {
+  document.write(numero + " não é um número primo.");
+}
+
 function ehPrimo(n) {
   if (n <= 1) return false;
 
