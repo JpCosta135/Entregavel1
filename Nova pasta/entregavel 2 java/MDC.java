@@ -4,11 +4,11 @@ public class MDC {
     int resto;
 
     public int mdc() {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Valor de a: ");
-        a = sc.nextInt();
+        a = input.nextInt();
         System.out.print("Valor de b: ");
-        b = sc.nextInt();
+        b = input.nextInt();
 
         while (b != 0) {
             resto = a % b;

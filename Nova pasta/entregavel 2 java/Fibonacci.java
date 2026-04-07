@@ -5,7 +5,6 @@ public class Fibonacci {
         int b = 1;
         int i = 2;
         int c;
-
         if (n == 1) {
             System.out.print(a);
         } else if (n >= 2) {
@@ -20,4 +19,9 @@ public class Fibonacci {
             }
         }
     }
+
+
+
+
+
 }

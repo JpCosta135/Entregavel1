@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Primo {
 
     public boolean ehPrimo() {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Valor de n: ");
-        int n = sc.nextInt();
+        int n = input.nextInt();
 
         if (n <= 1) return false;
 
