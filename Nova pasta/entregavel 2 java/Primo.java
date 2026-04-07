@@ -4,10 +4,10 @@ public class Primo {
 
     public boolean ehPrimo() {
         Scanner input = new Scanner(System.in);
+        System.out.print("Número de termos: ");
+        int numero = input.nextInt();
 
-        System.out.print("Valor de n: ");
-        int n = input.nextInt();
-
+        int n = 0;
         if (n <= 1) return false;
 
         for (int i = 2; i <= Math.sqrt(n); i++) {
@@ -15,7 +15,6 @@ public class Primo {
                 return false;
             }
         }
-
         return true;
     }
 }

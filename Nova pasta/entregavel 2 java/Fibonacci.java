@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 public class Fibonacci {
 
-    public void gerar(int n) {
+    public void gerar() {
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("digite a quantidade de termos");
+        int n = input.nextInt();
         int a = 0;
         int b = 1;
         int i = 2;
